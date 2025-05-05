@@ -1,0 +1,32 @@
+{
+  "name": "actividad14-web",
+  "version": "1.0.0",
+  "description": "Actividad 14 Diseño de aplicaciones web",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+    
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Eljajasjr/Actividad14-WEB.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Eljajasjr/Actividad14-WEB/issues"
+  },
+  "homepage": "https://github.com/Eljajasjr/Actividad14-WEB#readme",
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "mysql2": "^3.14.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
